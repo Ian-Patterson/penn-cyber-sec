@@ -110,3 +110,28 @@ Answer the following questions to fill in the blanks:_
   - etc/ansible/hosts 
 - _Which URL do you navigate to in order to check that the ELK server is running? 
   - http://20.120.78.93/app/kibana
+
+| Command                                 | Function                                             |
+|-----------------------------------------|------------------------------------------------------|
+| sudo apt-get update                     | update all packages                                  |
+| sudo apt install docker.io              | install docker application                           |
+| sudo docker pull cyberxsecurity/ansible | pull docker container file                           |
+| ssh-keygen                              | create ssh key for VM's                              |
+| sudo cat .ssh/id_rsa.pub                | view public ssh key                                  |
+| ssh azadmin@20.115.64.3                 | log into Jumpbox                                     |
+| sudo docker container list -a           | list all docker containers                           |
+| sudo docker start zealous_lalande       | start docker container zealous_lalande               |
+| sudo docker attach zealous_lalande      | ssh into zealous_lalande container                   |
+| sudo docker ps -a                       | lists all active/inactive containers                 |
+| nano /etc/ansible hosts                 | edit hosts file                                      |
+| nano /etc/ansible/ansible.cfg           | edit ansible configuration file                      |
+| nano /etc/ansible/pentest.yml           | edit the My Playbook file                            |
+| ssh azadmin@10.0.0.7                    | ssh into Web-1 VM                                    |
+| ssh azadmin@10.0.0.6                    | ssh into Web-2 VM                                    |
+| ssh azadmin@10.4.0.4                    | ssh into Elk VM                                      |
+| nano filebeat-config.yml                | create and edit filebeat configuration file          |
+| nano filebeat-playbook.yml              | create YAML file to install filebeat on webservers   |
+| nano metricbeat-config.yml              | create metricbeat configuration file and edit        |
+| nano metricbeat-playbook.yml            | create YAML file to install metricbeat on webservers |
+|                                         |                                                      |
+|                                         |                                                      |
