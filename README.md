@@ -100,13 +100,13 @@ SSH into the control node and follow the steps below:
 - Run the playbook, and navigate to http://YourIPaddress:5601/app/kibana to check that the installation worked as expected.
 
 Answer the following questions to fill in the blanks:_
-- _Which file is the playbook?  
-- Ansible: My First Playbook
-- Filebeat: Filebeat Playbook
-- Metricbeat: Metricbeat Playbook
+- Which file is the playbook?  
+  - Ansible: My First Playbook
+  - Filebeat: Filebeat Playbook
+  - Metricbeat: Metricbeat Playbook
 - Where do you copy it?
- - etc/ansible/
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ 
-- etc/ansible/hosts 
+  - etc/ansible/
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+  - etc/ansible/hosts 
 - _Which URL do you navigate to in order to check that the ELK server is running? 
-- http://20.120.78.93/app/kibana
+  - http://20.120.78.93/app/kibana
