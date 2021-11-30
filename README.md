@@ -99,9 +99,16 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible/hosts file to include IP address of VM
 - Run the playbook, and navigate to http://YourIPaddress:5601/app/kibana to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? My First Playbook
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ etc/ansible/hosts 
-- _Which URL do you navigate to in order to check that the ELK server is running? http://20.120.78.93/app/kibana
+Answer the following questions to fill in the blanks:_
+- _Which file is the playbook?  
+- Ansible: My First Playbook
+- Filebeat: Filebeat Playbook
+- Metricbeat: Metricbeat Playbook
+- Where do you copy it?
+ - etc/ansible/
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ 
+- etc/ansible/hosts 
+- _Which URL do you navigate to in order to check that the ELK server is running? 
+- http://20.120.78.93/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
