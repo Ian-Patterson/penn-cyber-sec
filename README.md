@@ -50,7 +50,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- My Public IP address through TCp 5601
+- My Public IP address through TCP 5601
 
 Machines within the network can only be accessed by My workstation and Jumpbox Provisioner through SSH.
 - Which machine did you allow to access your ELK VM? What was its IP address?_
